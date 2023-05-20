@@ -1,0 +1,16 @@
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.csproj.AssemblyReference.cache
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.AssemblyInfoInputs.cache
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.AssemblyInfo.cs
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.csproj.CoreCompileInputs.cache
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ModelMeThisFootball.exe
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ModelMeThisFootball.deps.json
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ModelMeThisFootball.runtimeconfig.json
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ModelMeThisFootball.runtimeconfig.dev.json
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ModelMeThisFootball.dll
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ref\ModelMeThisFootball.dll
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\bin\Debug\net5.0\ModelMeThisFootball.pdb
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.dll
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ref\ModelMeThisFootball.dll
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.pdb
+C:\Users\acer\Documents\repos\OOP-Football\ModelMeThisFootball\obj\Debug\net5.0\ModelMeThisFootball.genruntimeconfig.cache

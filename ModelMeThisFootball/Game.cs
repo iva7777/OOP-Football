@@ -33,7 +33,7 @@ namespace ModelMeThisFootball
             {
                 if (value.Players.Count == 11)
                 {
-                    team1 = value;
+                    team2 = value;
                 }
                 else
                 {
@@ -52,8 +52,8 @@ namespace ModelMeThisFootball
                 StringBuilder stringBuilder = new StringBuilder();
                 stringBuilder.AppendLine($"Game result:");
 
-                stringBuilder.AppendLine($"Team {Team1}: {GetGoals(Team1)}");
-                stringBuilder.AppendLine($"Team {Team2}: {GetGoals(Team2)}");
+                stringBuilder.AppendLine($"Team {Team1.Name}: {GetGoals(Team1)}");
+                stringBuilder.AppendLine($"Team {Team2.Name}: {GetGoals(Team2)}");
 
                 return stringBuilder.ToString();
             }
@@ -79,28 +79,31 @@ namespace ModelMeThisFootball
             }
         }
 
-        public Game()
+        public Game(Team team1, Team team2, Referee referee, Referee assistant1, Referee assistant2)
         {
-            Team1 = new Team();
-            Team2 = new Team();
+            Team1 = team1;
+            Team2 = team2;
+            Referee = referee;
+            AssistantReferee1 = assistant1;
+            AssistantReferee2 = assistant2;
             Goals = new List<Tuple<int, FootballPlayer>>();
         }
 
         public void AddGoal(int minute, FootballPlayer player)
         {
-            TeamShoots(player);
+            TeamShoots(player, minute);
             Goals.Add(new Tuple<int, FootballPlayer>(minute, player));
         }
 
-        private void TeamShoots(FootballPlayer player)
+        private void TeamShoots(FootballPlayer player, int minute)
         {
             if (Team1.Players.Contains(player))
             {
-                Console.WriteLine($"Goal shooted by {player.Name} from Team 1");
+                Console.WriteLine($"Goal shooted by {player.Name} from {Team1.Name} at {minute} minute.");
             }
             else if (Team2.Players.Contains(player))
             {
-                Console.WriteLine($"Goal shooted by {player.Name} from Team 2");
+                Console.WriteLine($"Goal shooted by {player.Name} from {Team2.Name} at {minute} minute.");
             }
         }
 

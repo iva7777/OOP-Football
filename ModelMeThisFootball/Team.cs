@@ -8,6 +8,7 @@ namespace ModelMeThisFootball
 {
     public class Team
     {
+        public string Name { get; set; }
         public Coach Coach { get; set; }
         private List<FootballPlayer> players;
 
@@ -23,6 +24,13 @@ namespace ModelMeThisFootball
                 else
                     throw new ArgumentException("The team should have between 11 and 22 players.");
             }
+        }
+
+        public Team(string name, Coach coach, List<FootballPlayer> players)
+        {
+            Name = name;
+            Coach = coach;
+            Players = players;
         }
 
         public double PlayersAverageAge
