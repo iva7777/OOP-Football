@@ -59,7 +59,7 @@ namespace ModelMeThisFootball
             Console.WriteLine("------------------------");
             Console.WriteLine(game.GameResult);
             Console.WriteLine("------------------------");
-            Console.WriteLine($"The winner is: {game.Winner.Name}.");
+            Console.WriteLine($"The winner is: {game.Winner}.");
         }
     }
 }

@@ -58,7 +58,7 @@ namespace ModelMeThisFootball
                 return stringBuilder.ToString();
             }
         }
-        public Team Winner { 
+        public string Winner { 
             get
             {
                 int team1Goals = GetGoals(Team1);
@@ -66,15 +66,15 @@ namespace ModelMeThisFootball
 
                 if (team1Goals > team2Goals)
                 {
-                    return Team1;
+                    return Team1.Name;
                 }
                 else if (team2Goals > team1Goals)
                 {
-                    return Team2;
+                    return Team2.Name;
                 }
                 else
                 {
-                    return null; //score draw
+                    return "Equal result"; //score draw
                 }
             }
         }
