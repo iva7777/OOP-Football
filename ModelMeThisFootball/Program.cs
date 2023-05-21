@@ -60,6 +60,16 @@ namespace ModelMeThisFootball
             Console.WriteLine(game.GameResult);
             Console.WriteLine("------------------------");
             Console.WriteLine($"The winner is: {game.Winner}.");
+            Console.WriteLine();
+            Console.WriteLine("------------------------");
+            Console.WriteLine("Additional information about this match:");
+            Console.WriteLine($"Referee: {referee.Name}");
+            Console.WriteLine($"First assistant referee: {assistantReferee1.Name}");
+            Console.WriteLine($"Second assistant referee: {assistantReferee2.Name}");
+            Console.WriteLine($"Galaxy Gliders' coach: {coaches[0].Name}");
+            Console.WriteLine($"Wild Cats' coach: {coaches[1].Name}");
+            Console.WriteLine($"{team1.Name} players' average age: {team1.PlayersAverageAge} years old.");
+            Console.WriteLine($"{team2.Name} players' average age: {team2.PlayersAverageAge} years old.");
         }
     }
 }

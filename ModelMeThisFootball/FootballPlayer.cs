@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ModelMeThisFootball
 {
-    public class FootballPlayer : Person
+    public abstract class FootballPlayer : Person
     {
         public int Number { get; set; }
         public double Height { get; set; }

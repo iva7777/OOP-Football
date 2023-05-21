@@ -48,7 +48,7 @@ namespace ModelMeThisFootball
                     totalAge += player.Age;
                 }
 
-                return (double)totalAge / Players.Count;
+                return Math.Round((double)totalAge / Players.Count, 2);
             }
         }
     }

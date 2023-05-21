@@ -99,11 +99,11 @@ namespace ModelMeThisFootball
         {
             if (Team1.Players.Contains(player))
             {
-                Console.WriteLine($"Goal shooted by {player.Name} from {Team1.Name} at {minute} minute.");
+                Console.WriteLine($"Goal shooted by {player.Name} with number {player.Number} from {Team1.Name} at {minute} minute.");
             }
             else if (Team2.Players.Contains(player))
             {
-                Console.WriteLine($"Goal shooted by {player.Name} from {Team2.Name} at {minute} minute.");
+                Console.WriteLine($"Goal shooted by {player.Name} with number {player.Number} from {Team2.Name} at {minute} minute.");
             }
         }
 
